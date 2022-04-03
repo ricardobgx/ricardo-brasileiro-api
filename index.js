@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 // Environment variables
-const { PORT } = process.env;
+const PORT = process.env.PORT || 3000;
 
 // Server
 const app = require("./src/app");
