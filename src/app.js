@@ -12,7 +12,7 @@ app.use(cors("*"));
 // Routes
 const mailRoutes = require("./routes/mail.routes");
 
-// Use routes
+// Use routes any
 app.use("/mails", mailRoutes);
 
 module.exports = app;
