@@ -14,6 +14,7 @@ module.exports = {
       // text: message,
       html: `
         <h3>${name}</h3>
+        <h4>From: ${email}</h4>
         <p>${message}</p>
       `,
     };
